@@ -17,7 +17,7 @@ mkdir $layer_install_path
 
 pip install -t python -r requirements.txt
 
-zip -r9 lambda-layer.zip python
+zip -rg lambda-layer.zip python
 
 echo "Uploading lambda layer to AWS"
 aws lambda publish-layer-version --compatible-architectures "$architectures" --layer-name "$layername" --compatible-runtimes $supportruntime --zip-file "fileb://lambda-layer.zip"
