@@ -34,23 +34,23 @@ $ unzip -l lambda-package.zip
 Archive:  lambda-package.zip
   Length      Date    Time    Name
 ---------  ---------- -----   ----
-      983  05-31-2024 03:59   app.py
+      983  xx-xx-20xx 03:59   app.py
 ....
-        0  05-31-2024 02:58   fastapi/
-     1081  05-31-2024 02:58   fastapi/__init__.py
-    23134  05-31-2024 02:58   fastapi/_compat.py
-   176342  05-31-2024 02:58   fastapi/applications.py
+        0  xx-xx-20xx 02:58   fastapi/
+     1081  xx-xx-20xx 02:58   fastapi/__init__.py
+    23134  xx-xx-20xx 02:58   fastapi/_compat.py
+   176342  xx-xx-20xx 02:58   fastapi/applications.py
 ....
-        0  05-31-2024 02:58   pygments/
-     2959  05-31-2024 02:58   pygments/__init__.py
-      348  05-31-2024 02:58   pygments/__main__.py
-    23536  05-31-2024 02:58   pygments/cmdline.py
+        0  xx-xx-20xx 02:58   pygments/
+     2959  xx-xx-20xx 02:58   pygments/__init__.py
+      348  xx-xx-20xx 02:58   pygments/__main__.py
+    23536  xx-xx-20xx 02:58   pygments/cmdline.py
 ....
-       27  05-31-2024 02:50   requirements.txt
+       27  xx-xx-20xx 02:50   requirements.txt
 ....
-        0  05-31-2024 02:58   uvicorn/
-      147  05-31-2024 02:58   uvicorn/__init__.py
-       62  05-31-2024 02:58   uvicorn/__main__.py
+        0  xx-xx-20xx 02:58   uvicorn/
+      147  xx-xx-20xx 02:58   uvicorn/__init__.py
+       62  xx-xx-20xx 02:58   uvicorn/__main__.py
 ....
 ```
 
