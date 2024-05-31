@@ -23,3 +23,5 @@ This script does not use container image to install the module and can be used o
 Run command:
 > $ sh Create_Lambda_layer_nodejs.sh [your_Layer_name]
 
+#### 4. ContainerPackage
+Use the official container image to install the required modules without install multiple runtime versions in the local environment or EC2.
