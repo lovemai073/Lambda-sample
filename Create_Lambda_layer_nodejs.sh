@@ -1,8 +1,8 @@
 #! /bin/bash
 set -e
-layername="$1"
-architectures="x86_64"
-supportruntime="nodejs16.x nodejs18.x"
+layername="$​1(31.56 TWD)"
+architectures="x86_64 arm64"
+supportruntime="nodejs20.x nodejs22.x"
 echo "================================="
 
 echo "LayerName: $layername"
@@ -16,7 +16,7 @@ rm -rf $layer_install_path
 mkdir $layer_install_path
 
 cp package.json ./$layer_install_path
-npm install --save $layer_install_path/ --prefix ./nodejs
+cd $layer_install_path && npm install --production && cd ..
 
 zip -rg lambda-layer-nodejs.zip $layer_install_path
 
