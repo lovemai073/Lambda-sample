@@ -1,8 +1,13 @@
 #! /bin/bash
+# NOTE: nodejs24.x no longer supports callback-based function handlers.
+# Only async/await handlers are supported. If your layer consumers use
+# legacy callback-style handlers (e.g., exports.handler = function(event, context, callback){...}),
+# they must migrate to async handlers before using nodejs24.x.
+
 set -e
 layername="$​1(31.56 TWD)"
 architectures="x86_64 arm64"
-supportruntime="nodejs20.x nodejs22.x"
+supportruntime="nodejs20.x nodejs22.x nodejs24.x"
 echo "================================="
 
 echo "LayerName: $layername"
